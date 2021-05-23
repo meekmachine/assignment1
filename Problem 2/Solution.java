@@ -1,7 +1,9 @@
 /*************************************************************
- Purpose/Description:<a brief description of the program>
+ Purpose/Description: A java class to count the occurrences of
+ an integer in an array of n integers.
  Author’s Panther ID: 6231951
- Certification:I hereby certify that this work is my own and none of it is the workof any other person.
+ Certification:I hereby certify that this work is my own and
+ none of it is the work of any other person.
 **************************************************************/
 class OccurenceCounter
 {
