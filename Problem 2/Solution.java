@@ -45,14 +45,14 @@ class OccurenceCounter
                                n - 1, x);
  
         // Check that the element is present.
-        if (ind == -1)
+        if (index == -1)
         {
             return 0;
         }
          
         // Count occurences of x on the left side.
         int count = 1;
-        int left = ind - 1;
+        int left = index - 1;
         while (left >= 0 && arr[left] == x)
         {
             count++;
@@ -60,7 +60,7 @@ class OccurenceCounter
         }
  
         // Count occurences of x on right side.
-        int right = ind + 1;
+        int right = index + 1;
         while (right < n &&
                arr[right] == x)
         {
