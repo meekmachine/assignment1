@@ -5,7 +5,7 @@
  Certification:I hereby certify that this work is my own and
  none of it is the work of any other person.
 **************************************************************/
-class OccurenceCounter
+class OccurrenceCounter
 {
  
     // Recursive implementation of binary search
@@ -50,7 +50,7 @@ class OccurenceCounter
             return 0;
         }
          
-        // Count occurences of x on the left side.
+        // Count occurrences of x on the left side.
         int count = 1;
         int left = index - 1;
         while (left >= 0 && arr[left] == x)
@@ -79,6 +79,6 @@ class OccurenceCounter
                      3, 4, 7, 8, 8};
         int length = arr.length;
         int target = 2;
-        System.out.println(countOccurences(arr, length, target));
+        System.out.println(countOccurrences(arr, length, target));
     }
 }
