@@ -79,7 +79,6 @@ class OccurrenceCounter
                      3, 4, 7, 8, 8};
         int length = arr.length;
         int target = 2;
-         System.out.print("foo");
         System.out.println(target + " has "+countOccurrences(arr, length, target) + " occurrences.");
     }
 }
