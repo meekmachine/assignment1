@@ -1,5 +1,5 @@
-// Java program to compute exponential value under modulo
-// using binary exponentiation.
+// Java program to compute exponential value using (2^k)
+// -ary method.
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -17,21 +17,18 @@ class exp_sq {
 
 	static long exponentiation(long base, long exp)
 	{
-		if (exp == 0)
-			return 1;
+		long t = 1L;
+		while (exp > 0) {
 
-		if (exp == 1)
-			return base % N;
+			// for cases where exponent
+			// is not an even value
+			if (exp % 2 != 0)
+				t = (t * base) % N;
 
-		long t = exponentiation(base, exp / 2);
-		t = (t * t) % N;
-
-		// if exponent is even value
-		if (exp % 2 == 0)
-			return t;
-
-		// if exponent is odd value
-		else
-			return ((base % N) * t) % N;
+			base = (base * base) % N;
+			exp /= 2;
+		}
+		return t % N;
 	}
 }
+		
