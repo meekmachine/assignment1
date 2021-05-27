@@ -1,10 +1,12 @@
-// Java program to compute exponential value using (2^k)
-// -ary method.
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+/*************************************************************
+ Purpose/Description: A java class which implements a sqaure /
+ multiply algorithm to efficently calculate exponents
+ Author’s Panther ID: 6231951
+ Certification:I hereby certify that this work is my own and
+ none of it is the work of any other person.
+**************************************************************/
 
-class exp_sq {
+class SolutionB {
 	static long N = 1000000007L; // prime modulo value
 	public static void main(String[] args)
 	{
