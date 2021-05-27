@@ -1,5 +1,5 @@
 /*************************************************************
- Purpose/Description: A java class to efficiently calculate xponentiation 
+ Purpose/Description: A java class to efficiently calculate exponentiation 
  using a recurssive implementation of the expo by square algorithm
  Author’s Panther ID: 6231951
  Certification:I hereby certify that this work is my own and
